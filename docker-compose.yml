@@ -7,7 +7,7 @@ services:
     ports:
       - 8080:80
     volumes:
-      - ./docs:/usr/share/nginx/html
+      - ./:/usr/share/nginx/html
     networks:
       - hobbybrau
 
