@@ -33,22 +33,13 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Pages
-        uses: actions/configure-pages@v3
-
-      - name: Build Project (if applicable)
-        run: |
-          echo "Skipping build step - add commands here if needed"
-          # Example: npm install && npm run build
-          # Example: hugo --minify (for Hugo sites)
-
-      - name: Debug Directory Structure
-        run: ls -R  # Lists all files to check if the build directory exists
+        uses: actions/configure-pages@v5
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
