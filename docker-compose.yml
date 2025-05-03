@@ -7,10 +7,10 @@ services:
     ports:
       - 8080:80
     volumes:
-      - ./:/usr/share/nginx/html
+      - ./web/:/usr/share/nginx/html:z
     networks:
       - hobbybrau
 
 networks:
   hobbybrau:
-    driver: bridge            
+    driver: bridge
