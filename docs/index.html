@@ -29,6 +29,16 @@
         body {
           font-family: "Noto Sans Display", sans-serif;
         }
+        .past-event {
+            opacity: 0.55;
+        }
+        .upcoming-event {
+            font-weight: 600;
+        }
+        .pale-ale {
+            color: #f2b13a;
+            text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+        }
         section h1, h2, h3, h4, h5, h6 {
             font-weight: normal;
         }
@@ -179,25 +189,25 @@
             <!-- Event -->
             <div class="row align-items-center transparent-block rounded-1 py-3">
                 <div class="col">
-                    <h2>Astra - Stechen und Zechen 2025</h2>
+                    <h2>Beer Battle: Hamburg vs. Berlin – Ehre im Glas</h2>
                     <p class="text-justify">
-                        Zehn Brauereistände, mehrere Tattoo Artists, bierige Futterstationen und ordentlich Astra-Remmidemmi
-                        mit Knollendrehen & weiteren Überraschungen. Außerdem gibt's mehrere limitierte Saison-Astras.
+                        <b>Am 30.05.2026</b> ist es so weit:
+                        Die Hamburger Hobbybrauer Hobbybrau Hamburg reten im epischen Beer Battle gegen die Hauptstadt
+                        an. Hobbybrau Hamburg gegen <a href="https://braufreunde.berlin" target="_blank">Braufreunde Berlin</a>.
                     </p>
                     <p class="text-justify">
-                        HobbyBrau Hamburg wird wieder mit einem Stand am Start sein und gegen eine Spende Selbstgebrautes
-                        ausschenken.
+                        Der Auftrag ist klar, der Rahmen eng gesteckt:
+                        <b class="pale-ale">Ein Session IPA mit max. 4,5 % vol, gebraut ausschließlich mit deutschem Hopfen, Malz und Hefe.</b>
                     </p>
-                    <p>
-                        Hier geht es zu den
-                        <a href="https://www.astra-bier.de/brauerei/aktuelles/">weiteren
-                            Informationen</a>.
+                    <p class="text-justify">
+                        Keine Ausreden. Kein Schnickschnack. Nur Können.
                     </p>
-                    <p>
-                        <b>Samstag, den 16.08.2025 12:00-22:00 Uhr</b>
+                    <p class="text-justify">
+                        Der Schauplatz dieses Duells: Bunker Hamburg.
                     </p>
-                    <p>
-                        Astra St. Pauli Brauerei, Nobistor 16, 22767 Hamburg
+                    <p class="text-justify">
+                        Das Bier gibt es gegen Spende – doch auf dem Spiel steht mehr als Geschmack: Es geht um die Ehre.
+                        Hamburg oder Berlin – wer holt den Sieg? 🍻
                     </p>
                 </div>
             </div>
@@ -218,25 +228,30 @@
                         </tr>
                         </thead>
                         <tbody>
-                        <tr>
-                            <td>08.08.25 18:00-22:00 Uhr</td>
-                            <td>Stammtisch im Malto</td>
-                            <td>Max-Brauer-Allee 88, 22765 Hamburg</td>
+                        <tr class="upcoming-event">
+                            <td>13.02.26 19:30-22:00 Uhr</td>
+                            <td>Stammtisch bei Astra St. Pauli</td>
+                            <td>Nobistor 16, 22767 Hamburg</td>
                         </tr>
-                        <tr>
-                            <td>16.08.25 12:00-22:00 Uhr</td>
-                            <td>Astra - Stechen und Zechen</td>
-                            <td>Astra St. Pauli Brauerei, Nobistor 16, 22767 Hamburg</td>
+                        <tr class="past-event">
+                            <td>25.09.25 18:00-22:00 Uhr</td>
+                            <td>Stammtisch im Bunthaus Schankraum</td>
+                            <td>Kurdamm 24, 21107 Hamburg</td>
                         </tr>
-                        <tr>
+                        <tr class="past-event">
                             <td>28.08.25 18:00-22:00 Uhr</td>
                             <td>Stammtisch im Bunthaus Schankraum</td>
                             <td>Kurdamm 24, 21107 Hamburg</td>
                         </tr>
-                        <tr>
-                            <td>25.09.25 18:00-22:00 Uhr</td>
-                            <td>Stammtisch im Bunthaus Schankraum</td>
-                            <td>Kurdamm 24, 21107 Hamburg</td>
+                        <tr class="past-event">
+                            <td>16.08.25 12:00-22:00 Uhr</td>
+                            <td>Astra - Stechen und Zechen</td>
+                            <td>Astra St. Pauli Brauerei, Nobistor 16, 22767 Hamburg</td>
+                        </tr>
+                        <tr class="past-event">
+                            <td>08.08.25 18:00-22:00 Uhr</td>
+                            <td>Stammtisch im Malto</td>
+                            <td>Max-Brauer-Allee 88, 22765 Hamburg</td>
                         </tr>
                         </tbody>
                     </table>
@@ -262,6 +277,12 @@
                             </thead>
                             <tbody>
                             <tr>
+                                <td>23.08.2025</td>
+                                <td>Astra Zechen &amp; Stechen</td>
+                                <td><a href="https://www.stbrauli.de" target="_blank">St. Brauli e.V.</a></td>
+                                <td class="text-end">640 EUR</td>
+                            </tr>
+                            <tr>
                                 <td>06.06.2024, 07.06.2024</td>
                                 <td>Wittorfer Brauereifest 2025 - Gemeinschaftsstand mit NeumünserBRAUT</td>
                                 <td><a href="https://www.bsg-neumuenster.de" target="_blank">BSG-Neumünster e.V.</a></td>
@@ -270,7 +291,7 @@
                             <tr>
                                 <td>06.06.2024, 07.06.2024</td>
                                 <td>Hamburg Beer-Festival 2025</td>
-                                <td><a href="https://www.stbrauli.de" target="_blank">St. Brauli</a></td>
+                                <td><a href="https://www.stbrauli.de" target="_blank">St. Brauli e.V.</a></td>
                                 <td class="text-end">~ 1600,00 EUR</td>
                             </tr>
                             <tr>
@@ -347,6 +368,14 @@
                         Seit 2018 treffen sie sich unter dem Motto „Neumünster BRAUT“ regelmäßig
                         und veranstalten kleine Tastings oder besprechen einen Sud, welcher zum Vergleich auf
                         mehreren Anlagen parallel gebraut wurde.
+                    </p>
+                    <h2>Braufreunde Berlin</h2>
+                    <p class="text-justify">
+                        Am 28.01.2016 fanden sich 10 Haus- und Hobbybrauer in Berlin Friedrichshain zusammen und
+                        gründeten den Verein „<a href="https://braufreunde.berlin" target="_blank">Braufreunde Berlin e.V.</a>“.
+                        Mehrere voran gegangene Treffen zeigten, dass Erfahrungsaustausch und gemeinsame Ziele ein
+                        gemeinsames Dach benötigen.
+                        Ebenso soll das Wissen ums Hausbrauen verbreitet und beworben werden.
                     </p>
                 </div>
             </div>
