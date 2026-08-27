@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//HobbyBrau Hamburg//Termine//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:stammtisch-2026-09-03@hobbybrau-hamburg.de
+DTSTAMP:20260823T000000Z
+DTSTART;TZID=Europe/Berlin:20260903T180000
+DTEND;TZID=Europe/Berlin:20260903T220000
+SUMMARY:Stammtisch im Hoege
+LOCATION:Max-Brauer-Allee 88\, 22765 Altona
+DESCRIPTION:Regelmaessiger Stammtisch von HobbyBrau Hamburg im Hoege.
+END:VEVENT
+END:VCALENDAR

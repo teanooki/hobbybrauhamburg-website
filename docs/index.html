@@ -59,6 +59,28 @@
         table tr:nth-child(odd) td {
             background-color: rgba(255,255,255,0.2) !important;
         }
+        table tr.regular-event td {
+            background-color: rgba(242,177,58,0.25) !important;
+        }
+        .regular-label {
+            display: inline-block;
+            margin-left: 0.4rem;
+            padding: 0.1rem 0.35rem;
+            border: 1px solid currentColor;
+            border-radius: 0.25rem;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+        }
+        .calendar-link {
+            display: inline-block;
+            margin-left: 0.4rem;
+            padding: 0.1rem 0.35rem;
+            border-radius: 0.25rem;
+            background-color: #333333;
+            color: white;
+            font-size: 0.75rem;
+            text-decoration: none;
+        }
         a.btn>span {
             display: inline-block;
             width: 57pt
@@ -117,10 +139,10 @@
                     <h1>Moin, moin!</h1>
                     <p class="text-justify">
                         Wir sind ein lockerer Zusammenschluss von Menschen aus dem Raum Hamburg, die sich für das
-                        Thema Heimbrauen interessieren. Habt ihr Fragen, braucht Zutaten oder wollt Equipment verkaufen?
-                        Hier sind alle Themen willkommen, egal ob Anfänger oder Fortgeschrittener. Wir treffen uns
-                        zweimal im Monat abwechselnd im Schankraum von Bunthaus in Wilhelmsburg oder im Braumarkt in
-                        Bahrenfeld und beteiligen uns regelmäßig mit einem eigenen Stand an verschiedenen
+                        Thema Heimbrauen interessieren. Bei uns sind alle Themen willkommen, egal ob Anfänger oder
+                        Fortgeschrittener: Wir probieren unsere selbstgebrauten Biere, tauschen Tipps und Kniffe aus
+                        und helfen uns gegenseitig dabei, noch feineres Bier zu brauen. Wir treffen uns regelmäßig
+                        im Hoege in Altona und beteiligen uns mit einem eigenen Stand an verschiedenen
                         Veranstaltungen. Da wir kein Geld mit unserem Bier verdienen dürfen, sammeln wir Spenden für
                         unterschiedliche gemeinnützige Organisationen. Neue Gesichter sind immer willkommen!
                     </p>
@@ -202,7 +224,37 @@
                         </tr>
                         </thead>
                         <tbody>
-                        <tr class="upcoming-event">
+                        <tr class="regular-event">
+                            <td>03.12.26 18:00 Uhr <a class="calendar-link" href="calendar/stammtisch-2026-12-03.ics" download>Kalender</a></td>
+                            <td>Stammtisch im Hoege <span class="regular-label">regelmäßig</span></td>
+                            <td>Max-Brauer-Allee 88, 22765 Altona</td>
+                        </tr>
+                        <tr class="regular-event">
+                            <td>05.11.26 18:00 Uhr <a class="calendar-link" href="calendar/stammtisch-2026-11-05.ics" download>Kalender</a></td>
+                            <td>Stammtisch im Hoege <span class="regular-label">regelmäßig</span></td>
+                            <td>Max-Brauer-Allee 88, 22765 Altona</td>
+                        </tr>
+                        <tr class="regular-event">
+                            <td>01.10.26 18:00 Uhr <a class="calendar-link" href="calendar/stammtisch-2026-10-01.ics" download>Kalender</a></td>
+                            <td>Stammtisch im Hoege <span class="regular-label">regelmäßig</span></td>
+                            <td>Max-Brauer-Allee 88, 22765 Altona</td>
+                        </tr>
+                        <tr class="regular-event">
+                            <td>03.09.26 18:00 Uhr <a class="calendar-link" href="calendar/stammtisch-2026-09-03.ics" download>Kalender</a></td>
+                            <td>Stammtisch im Hoege <span class="regular-label">regelmäßig</span></td>
+                            <td>Max-Brauer-Allee 88, 22765 Altona</td>
+                        </tr>
+                        <tr class="past-event">
+                            <td>21.08.26</td>
+                            <td>Halt mal kurz mein Bier fest</td>
+                            <td>Wittorfer Brauerei</td>
+                        </tr>
+                        <tr class="past-event">
+                            <td>21.08.26</td>
+                            <td>Klönschnack am Hohendeich</td>
+                            <td>FFW Ochsenwerder, Elbdeich 325</td>
+                        </tr>
+                        <tr class="past-event">
                             <td>27.06.26 18:00-23:59 Uhr</td>
                             <td>Wildwuchs Brauereifest</td>
                             <td>Jaffestraße 8, 21109 Hamburg</td>
@@ -270,6 +322,12 @@
                             </tr>
                             </thead>
                             <tbody>
+                            <tr>
+                                <td>05./06.06.26</td>
+                                <td>Hamburg Beer Festival</td>
+                                <td>HobbybrauHamburg</td>
+                                <td class="text-end">906,56 EUR</td>
+                            </tr>
                             <tr>
                                 <td>30.05.2026</td>
                                 <td>BeerBattle HHvs.Berlin</td>
